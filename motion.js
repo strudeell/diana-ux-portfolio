@@ -17,7 +17,7 @@ if (!reducedMotion && 'IntersectionObserver' in window) {
       }
     }
   }, {threshold: 0.12});
-  document.querySelectorAll('.project, .experience article, .detail').forEach(element => observer.observe(element));
+  document.querySelectorAll('.work-head, .project, .experience article, .detail, .case-section h2, .next-project').forEach(element => observer.observe(element));
 }
 const pocket = document.querySelector('.envelope-pocket');
 if (pocket) {
